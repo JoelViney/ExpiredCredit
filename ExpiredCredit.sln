@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpiredCredit", "ExpiredCredit\ExpiredCredit.csproj", "{3028C8D3-6650-40A5-821D-2E0FE6037D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpiredCredit.Test", "ExpiredCredit.Test\ExpiredCredit.Test.csproj", "{B3CEFA3B-0633-45A7-90C9-0B8FD265A27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3028C8D3-6650-40A5-821D-2E0FE6037D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3028C8D3-6650-40A5-821D-2E0FE6037D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3028C8D3-6650-40A5-821D-2E0FE6037D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3028C8D3-6650-40A5-821D-2E0FE6037D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CEFA3B-0633-45A7-90C9-0B8FD265A27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CEFA3B-0633-45A7-90C9-0B8FD265A27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CEFA3B-0633-45A7-90C9-0B8FD265A27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CEFA3B-0633-45A7-90C9-0B8FD265A27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB2A4E8-565B-4235-B38A-71B63DB0A84F}
+	EndGlobalSection
+EndGlobal
