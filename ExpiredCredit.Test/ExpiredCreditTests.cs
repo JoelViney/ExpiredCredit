@@ -23,6 +23,7 @@ namespace ExpiredCredit.Test
             Assert.AreEqual(100m, balance);
         }
 
+        // The credit is expired.
         [TestMethod]
         public void ExpiredCreditTest()
         {
@@ -39,6 +40,7 @@ namespace ExpiredCredit.Test
             Assert.AreEqual(0m, balance);
         }
 
+        // Some credit is expired, some is still active.
         [TestMethod]
         public void ExpiredAndActiveCreditTest()
         {
@@ -74,7 +76,7 @@ namespace ExpiredCredit.Test
             Assert.AreEqual(0m, balance);
         }
 
-        // 100 credit, used 50, need to expire 50
+        // 100 credit that is expired, 100 credit that isn't expired, used 50, need to expire 50
         [TestMethod]
         public void ExpiredAndActivePartiallyUsedCreditTest()
         {
