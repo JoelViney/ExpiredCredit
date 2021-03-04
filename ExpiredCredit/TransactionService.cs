@@ -24,6 +24,9 @@ namespace ExpiredCredit
             return list.Sum(x => x.Amount);
         }
 
+        // So the basic algorithm is
+        // (Total Balance of Credit) - (The Last Years Credit) > 0
+        // Then we need to expire the difference.
         public void ExpireCredit(int userId, DateTime dateTime)
         {
             var lastYear = dateTime.AddYears(-1);
